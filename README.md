@@ -48,3 +48,38 @@ npm run build
 ```
 
 This should create a production bundle for your extension, ready to be zipped and published to the stores!
+
+{/* <button
+  style={{
+    display: "inline-flex",
+    alignItems: "center",
+    justifyContent: "center",
+    gap: "8px",
+    whiteSpace: "nowrap",
+    borderRadius: "6px",
+    fontSize: "14px",
+    fontWeight: "500",
+    transition: "background-color 0.2s ease-in-out",
+    outline: "none",
+    border: "none",
+    cursor: "pointer",
+    height: "36px",
+    width: "36px",
+    backgroundColor: "#000000",
+    color: "#dddddd",
+    boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
+  }}
+  ref={ref}
+  {...props}
+  disabled={isLoading}
+>
+  {isLoading ?
+    <Loader2
+      style={{
+        width: "16px",
+        height: "16px",
+        animation: "spin 1s linear infinite"
+      }}
+    />
+    : icon}
+</button> */}
