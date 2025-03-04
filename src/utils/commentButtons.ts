@@ -3,6 +3,8 @@ import { createPrompt } from "./prompt"
 import { fetchSuggestion } from "./api"
 import { Button } from "@/components/ui/button"
 import type { LucideIcon } from 'lucide-react'
+import { createElement } from 'react'
+import { createRoot } from 'react-dom/client'
 
 export const addSuggestionButton = (commentBox: HTMLElement) => {
   const container = commentBox.querySelector(".display-flex.justify-space-between .display-flex")
@@ -37,8 +39,9 @@ export const addSuggestionButton = (commentBox: HTMLElement) => {
     button.title = reaction.name
     button.style.marginRight = "4px"
 
-    const IconComponent = reaction.icon as LucideIcon
-    button.innerHTML = IconComponent.toString()
+    const IconComponent = reaction.icon
+    const root = createRoot(button)
+    root.render(createElement(IconComponent))
 
     button.addEventListener("click", async () => {
       const basePrompt = createPrompt(commentBox)
