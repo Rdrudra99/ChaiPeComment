@@ -1,6 +1,6 @@
 import { PartyPopper, Heart, ThumbsUp, Lightbulb, SmilePlus, HandMetal, type LucideIcon, Twitter } from 'lucide-react'
 
-export const GROQ_API_KEY = "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"
+export const GROQ_API_KEY = "PUT YOUR GROQ API KEY HERE"
 
 export const REACTIONS = [
   { name: 'Celebrate', icon: PartyPopper as LucideIcon, prompt: 'Write a celebratory and enthusiastic response' },
