@@ -1,7 +1,8 @@
 # ChaiPeComment: AI-Powered Comment Suggestions
 
 ChaiPeComment is a powerful Chrome extension that helps users craft thoughtful comments for posts across social media platforms with just a click.
-
+## Visit Here For Demo 
+[Click Here](https://www.instagram.com/reel/DHG2zj8TczE/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==)
 ## Features
 
 - 🤖 **AI-Powered Suggestions**: Get intelligent comment ideas based on post content
