@@ -1,9 +1,9 @@
 {
-	"name": "rttpes-chrome-extension-template",
-	"displayName": "RTTPES Chrome Extension Template",
+	"name": "chaipecomment",
+	"displayName": "ChaiPeComment - AI Comment Suggestions",
 	"version": "0.0.1",
-	"description": "The RTTPES Chrome Extension Template is a powerful starting point for building modern, high-performance Chrome extensions. RTTPES: React, TypeScript, Tailwind CSS, Prettier, ESLint, and ShadCN, all set up and ready to go with Plasmo, a fast and flexible framework for Chrome extensions.",
-	"author": "temrb",
+	"description": "AI-powered Chrome extension that helps users craft thoughtful comments for posts across social media platforms including LinkedIn, Twitter/X, Facebook, and Instagram with just a click.",
+	"author": "Rdrudra99",
 	"scripts": {
 		"dev": "plasmo dev",
 		"build": "plasmo build",
